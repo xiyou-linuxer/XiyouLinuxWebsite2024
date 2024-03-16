@@ -1,0 +1,58 @@
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(60deg, #2ca, #ec0);
+  --vp-home-hero-image-background-image: linear-gradient(30deg, #ec0 50%, #2ca 50%);
+  --vp-home-hero-image-filter: blur(8em);
+
+  --vp-c-brand-1: #2b9;
+  --vp-c-brand-2: #2ca;
+  --vp-c-brand-3: #1a8;
+  --vp-c-brand-soft: #22ccaa44;
+}
+
+@font-face {
+  font-family: '标小智无界黑';
+  font-weight: bold;
+  src: url(/static/BiaoXiaoZhiWuJieHei.otf);
+}
+
+.VPHero .name,
+.VPHero .text {
+  font-family: '标小智无界黑', sans-serif;
+}
+
+.VPMenuGroup>.title {
+  font-size: 11px;
+}
+
+.VPImage {
+  border-radius: 100%;
+}
+
+.vp-doc a {
+  transition: .2s;
+  text-decoration: none;
+  background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
+}
+
+.vp-doc a:hover {
+  background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
+  border-radius: .2em;
+}
+
+strong {
+  background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
+}
+
+.fa-solid,
+.fa-regular,
+.fa-brands {
+  width: 1.3em;
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1.5em;
+}
