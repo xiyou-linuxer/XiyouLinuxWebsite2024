@@ -1,29 +1,22 @@
+<script setup>
+    import MemberList from '/.vitepress/components/MemberList.vue'
+    import memberData from '/.vitepress/components/memberData.js'
+</script>
+
 # 成员
 
 ::: warning 待补充
-需要更多补充的内容。
+请需要补充信息的成员填写内部文档。
 :::
 
-## 2023
+## 2023 级
 
-## 2022
+<MemberList :data="memberData.g2023" />
 
-| 姓名  | 链接  |
-| :---: | :---: |
-|   y   |       |
-|   z   |       |
-|   z   |       |
+## 2022 级
 
-## 2021
+<MemberList :data="memberData.g2022" />
 
-## 2020
+## 2021 级
 
-## 2019
-
-## 2018
-
-## 2017
-
-## 2016
-
-## ……
+<MemberList :data="memberData.g2021" />

@@ -88,7 +88,7 @@ function sidebar(): DefaultTheme.Sidebar {
       ]
     },
     {
-      text: '联系我们', items: [
+      text: '联系', items: [
         { text: '联系方式', link: '/info/contact' },
         { text: '加入我们', link: '/info/join' },
       ]
