@@ -52,6 +52,7 @@ export default defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     { text: '群博Blog', link: '//blog.xiyoulinux.com' },
+    { text: '成员', link: '/info/member' },
     { text: '活动', link: '/event/' },
     {
       text: '链接', items: [

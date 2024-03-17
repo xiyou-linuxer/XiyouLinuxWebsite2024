@@ -5,9 +5,7 @@
 
 # 成员
 
-::: warning 待补充
-请需要补充信息的成员填写内部文档。
-:::
+如果信息有误，请联系 **<i class="fa-brands fa-qq"></i>QQ: 2399052066** 。
 
 ## 2023 级
 
@@ -20,3 +18,19 @@
 ## 2021 级
 
 <MemberList :data="memberData.g2021" />
+
+## 2020 级
+
+<MemberList :data="memberData.g2020" />
+
+## 2019 级
+
+<MemberList :data="memberData.g2019" />
+
+## 2018 级
+
+<MemberList :data="memberData.g2018" />
+
+## 2014 级
+
+<MemberList :data="memberData.g2014" />

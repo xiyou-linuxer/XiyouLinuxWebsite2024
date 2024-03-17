@@ -17,7 +17,7 @@ export default {
       <div class="card">
         <img :src="`https://github.com/${member.github}.png`" class="avatar" :alt="member.name">
         <span class="name">{{ member.name }}</span>
-        <span class="title">{{ member.title || '' }}</span>
+        <span class="title">{{ member.title }}</span>
         <template v-if="member.github">
           <a :href="`https://github.com/${member.github}`" target="_blank">
             <i class="fa-brands fa-github"></i>{{ member.github }}

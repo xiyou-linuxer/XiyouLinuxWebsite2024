@@ -4,6 +4,10 @@
 
 地址：西安邮电大学长安校区东区 逸夫楼FZ103
 
+## 网站维护
+
+如果信息有误，请联系 <i class="fa-brands fa-qq"></i>QQ: 2399052066 。
+
 ## 线上渠道
 
 ### [<i class="fa-brands fa-github"></i> GitHub](https://blog.xiyoulinux.com/)
