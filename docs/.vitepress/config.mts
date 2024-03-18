@@ -11,8 +11,17 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.ico',
+
     nav: nav(),
-    sidebar: sidebar(),
+
+    sidebar: {
+      // 指定路径侧边栏
+      '/manual': manualSidebar(),
+
+      // 默认侧边栏
+      '/': dafaultSidebar(),
+    },
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/xiyou-linuxer' },
     ],
@@ -25,10 +34,10 @@ export default defineConfig({
     sidebarMenuLabel: '菜单',
     outline: { level: [2, 3], label: '目录' },
     returnToTopLabel: '返回顶部',
-    // editLink: {
-    //   pattern: 'https://github.com/L33Z22L11/ZhiluSite/edit/main/docs/:path',
-    //   text: '在 GitHub 上编辑此页面'
-    // },
+    editLink: {
+      pattern: 'https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024/edit/main/docs/:path',
+      text: '在 GitHub 上编辑此页面'
+    },
     lastUpdated: {
       text: '更新于',
       formatOptions: { dateStyle: 'short', timeStyle: 'medium' }
@@ -36,8 +45,8 @@ export default defineConfig({
     docFooter: { prev: '上一篇', next: '下一篇' },
 
     footer: {
-      message: '<a href="http://beian.miit.gov.cn">陕ICP备2023007680号-1</a>',
-      copyright: `© 2006-${new Date().getFullYear()} 西邮Linux兴趣小组`
+      message: '<a href="http://beian.miit.gov.cn">陕ICP备2023007680号-1</a> · <a href="/manual/">维护手册</a> · <a href="https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024">官网仓库</a>',
+      copyright: `© 2006-${new Date().getFullYear()} 西邮 Linux 兴趣小组`
     },
   },
 
@@ -73,7 +82,7 @@ function nav(): DefaultTheme.NavItem[] {
   ]
 }
 
-function sidebar(): DefaultTheme.Sidebar {
+function dafaultSidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: '信息', items: [
@@ -94,5 +103,25 @@ function sidebar(): DefaultTheme.Sidebar {
         { text: '加入我们', link: '/info/join' },
       ]
     },
+  ]
+}
+
+function manualSidebar(): DefaultTheme.SidebarItem[] {
+  return [
+    {
+      text: '官网维护手册', items: [
+        { text: '概览', link: '/manual/' },
+        { text: '安装', link: '/manual/setup' },
+        { text: '配置', link: '/manual/config' },
+        { text: '写作', link: '/manual/write' },
+        {
+          text: '组件', items: [
+            { text: '成员列表', link: '/manual/component/member-list' },
+          ]
+        },
+        { text: '推送部署', link: '/manual/deploy' },
+      ]
+    },
+    { text: '维护日志', link: '/manual/log' },
   ]
 }
