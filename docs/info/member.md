@@ -5,8 +5,6 @@
 
 # 成员
 
-如果信息有误，请联系 **<i class="fa-brands fa-qq"></i>QQ: 2399052066** 。
-
 ## 2023 级
 
 <MemberList :data="memberData.g2023" />

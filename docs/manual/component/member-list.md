@@ -12,7 +12,7 @@
 
 要编写或修改成员信息，您可以按照以下步骤进行操作：
 
-1. 打开 `/docs/.vitepress/components/memberData.js` 文件。
+1. 打开 `docs/.vitepress/components/memberData.js` 文件。
 
 2. 在该文件中，您会看到两个数组 `g[年份]` ，分别代表 [年份] 级的成员信息。
 
@@ -27,7 +27,7 @@
 
    - 例如：
      ```javascript
-     { name: '张三', title: '成员', github: 'zhangsan', linkText: '个人博客', link: 'https://example.com' }
+     { name: '张三', title: '成员', github: 'zhangsan', linkText: '个人博客', link: 'https://example.com' },
      ```
 
 4. 修改完成后保存文件。

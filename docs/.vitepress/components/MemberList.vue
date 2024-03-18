@@ -16,16 +16,16 @@ export default {
     <div v-for="member in data">
       <div class="card">
         <img :src="`https://github.com/${member.github}.png`" class="avatar" :alt="member.name">
-        <span class="name">{{ member.name }}</span>
+        <span class="name">{{ member.name || member.github }}</span>
         <span class="title">{{ member.title }}</span>
-        <template v-if="member.github">
-          <a :href="`https://github.com/${member.github}`" target="_blank">
-            <i class="fa-brands fa-github"></i>{{ member.github }}
-          </a>
-        </template>
         <template v-if="member.link && member.linkText">
           <a :href="member.link" target="_blank">
             <i class="fa-solid fa-link"></i>{{ member.linkText }}
+          </a>
+        </template>
+        <template v-if="member.github">
+          <a :href="`https://github.com/${member.github}`" target="_blank">
+            <i class="fa-brands fa-github"></i>{{ member.github }}
           </a>
         </template>
       </div>
