@@ -15,17 +15,19 @@ export default {
   <div class="members">
     <div v-for="member in data">
       <div class="card">
-        <img :src="`https://github.com/${member.github}.png`" class="avatar" :alt="member.name">
+        <div class="avatar"
+          :style="`background-image: url(https://github.com/${member.github}.png), url(https://q1.qlogo.cn/g?b=qq&nk=${member.qq}&s=3), url(/favicon.ico)`">
+        </div>
         <span class="name">{{ member.name || member.github }}</span>
         <span class="title">{{ member.title }}</span>
-        <template v-if="member.link && member.linkText">
-          <a :href="member.link" target="_blank">
-            <i class="fa-solid fa-link"></i>{{ member.linkText }}
-          </a>
-        </template>
         <template v-if="member.github">
           <a :href="`https://github.com/${member.github}`" target="_blank">
             <i class="fa-brands fa-github"></i>{{ member.github }}
+          </a>
+        </template>
+        <template v-if="member.link && member.linkText">
+          <a :href="member.link" target="_blank">
+            <i class="fa-solid fa-link"></i>{{ member.linkText }}
           </a>
         </template>
       </div>
@@ -85,6 +87,7 @@ export default {
   border-radius: 100%;
   margin-bottom: 12px;
   box-shadow: 2px 4px 12px var(--vp-c-divider);
+  background-size: cover, cover, cover;
 }
 
 .card>.name {

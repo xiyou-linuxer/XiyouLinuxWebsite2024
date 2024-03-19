@@ -2,7 +2,8 @@
 
 ## 2024
 
-- 2024 年 3 月 18 日，纸鹿创建了[官网维护手册](/manual/)。
+- 2024 年 3 月 19 日，在历届小组成员的帮助下，成员列表已经趋于完善。
+- 2024 年 3 月 18 日，纸鹿创建了 [官网维护手册](/manual/) 。
 - 2024 年 3 月 14 日，纸鹿使用 VitePress 重建 [<i class="fa-brands fa-github"></i>官网(2024)](https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024)。
 
 ## 2023

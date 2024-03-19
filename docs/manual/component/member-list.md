@@ -4,51 +4,72 @@
 你可以参考 VitePress 官方文档的 [在 Markdown 使用 Vue](https://vitepress.dev/zh/guide/using-vue) 一节。
 :::
 
-1. `docs/info/member.md`: 这是一个 Markdown 文件，用于显示项目成员信息。
+1. `docs/info/member.md`: 这是一个 Markdown 文件，用于显示成员信息页面。
+2. `docs/.vitepress/components/MemberList.vue`: 这是一个 Vue 组件，用于渲染成员信息。
+3. `docs/.vitepress/components/memberData.js`: 这是一个 JavaScript 模块，用于定义成员信息的数据。
 
-2. `docs/.vitepress/components/memberData.js`: 这是一个 JavaScript 模块，用于定义成员信息的数据。
-
-## 编写成员信息
-
-要编写或修改成员信息，您可以按照以下步骤进行操作：
-
-1. 打开 `docs/.vitepress/components/memberData.js` 文件。
-
-2. 在该文件中，您会看到两个数组 `g[年份]` ，分别代表 [年份] 级的成员信息。
-
-3. 您可以按照现有的成员信息格式，添加新的成员或修改现有的成员信息。
-
-   - 每个成员以对象的形式表示，包含以下属性：
-     - `name`: 成员的姓名。
-     - `title`: 成员的职务或头衔（可选）。
-     - `github`: 成员的 GitHub 用户名。
-     - `linkText`: 显示在链接上的文本（可选）。
-     - `link`: 成员的个人博客或网站链接。
-
-   - 例如：
-     ```javascript
-     { name: '张三', title: '成员', github: 'zhangsan', linkText: '个人博客', link: 'https://example.com' },
-     ```
-
-4. 修改完成后保存文件。
-
-## 编写成员信息页面
+## 编辑成员信息页面
 
 要编写或修改成员信息页面 (`docs/info/member.md`)，您可以按照以下步骤进行操作：
 
 1. 打开 `docs/info/member.md` 文件。
-
-2. 在该文件中，您会看到两个级别的成员信息部分。
-
+2. 在该文件中，您会看到各个年级的成员信息。
 3. 您可以按照现有的格式，使用 Markdown 语法编写或修改成员信息。
-
-   - 每个成员信息部分应包含一个级别的标题（例如 `## 2023 级`）和一个 `<MemberList>` 组件。
-
-   - 您可以在 `<MemberList>` 组件中传递相应级别的成员数据。
-
-     例如：
+   - 文件头部应当引入成员信息的 Vue 组件和 JavaScript 模块：
      ```markdown
-     <MemberList :data="memberData.g2023" />
+     <script setup>
+       import MemberList from '/.vitepress/components/MemberList.vue'
+       import memberData from '/.vitepress/components/memberData.js'
+     </script>
+     ```
+
+   - 每个成员信息部分应包含一个级别、带有锚点的标题（例如 `## 2022 级 {#2022}`）和一个 `<MemberList>` 组件。您可以在 `<MemberList>` 组件中传递相应级别的成员数据。例如：
+     ```markdown
+     ## 2022 级 {#2022}
+
+     <MemberList :data="memberData.g2022" />
      ```
 
 4. 修改完成后保存文件。
+
+## 编辑成员信息
+
+成员信息应当从在线文档中修改，其中也编写好了用于生成代码的单元格函数。
+
+函数应该类似这样：
+
+```c
+// Excel 函数语法
+
+// 将某一行中的成员转换为 JavaScript 对象代码
+="{name:'"&A1&"',title:'"&C1&"',qq:'"&D1&"',github:'"&E1&"',linkText:'"&F1&"',link:'"&G1&"'},"
+
+// 汇总指定年级的结果，A3为要汇总的年级，成员信息表B列为年级，H列为每一个成员的对象代码
+="g"&A3&":["&CHAR(10)&TEXTJOIN(CHAR(10),TRUE,FILTER(成员信息!H:H,成员信息!B:B=A3))&CHAR(10)&"],"
+```
+
+最终生成的结果如下：
+
+| 年级       | 符合条件的值拼接 |
+| ---------- | ---------------- |
+| [代码前缀] | export default { |
+| 2023       | g2023: [ ... ],  |
+| 2022       | g2022: [ ... ],  |
+| ……         | ……               |
+| 2004       | g2004: [ ... ],  |
+| [代码后缀] | };               |
+
+你可以直接将第二列含有代码的单元格从上到下选中，复制粘贴到 `docs/.vitepress/components/memberData.js` 中，保存文件。
+
+### 成员信息数据结构
+
+在 `docs/.vitepress/components/memberData.js` 中，您会看到默认导出对象中有许多名为 `g[年份]` 的数组，它们代表 [年份] 年级的成员信息。
+
+每个成员以对象的形式表示，包含以下属性：
+- `name`: 姓名。
+- `title`: 头衔（如`xx级负责人`）或备注（可选）。
+- `qq`: 成员的 QQ 号（用于在 GitHub 头像显示失败时显示 QQ 头像）。
+- `github`: 成员的 GitHub 用户名。
+- `linkText`: 成员自定义的链接名称（可选，如`CSDN`、`独立博客`、`B站`）。
+- `link`: 成员的自定义链接地址。
+
