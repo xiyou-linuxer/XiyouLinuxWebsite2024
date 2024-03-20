@@ -18,9 +18,9 @@ export default {
     { name: '张奕宸', title: '', qq: '2976002717', github: 'erthern', linkText: 'CSDN', link: 'https://blog.csdn.net/thunderblue' },
   ],
   g2022: [
-    { name: '袁小天', title: '22级负责人', qq: '17209298090', github: 'tiny-sky', linkText: 'CSDN', link: 'https://blog.csdn.net/m0_74114450' },
+    { name: '袁小天', title: '22级负责人', qq: '1179188517', github: 'tiny-sky', linkText: 'CSDN', link: 'https://blog.csdn.net/m0_74114450' },
     { name: '张敏睿', title: '22级负责人', qq: '2743377630', github: 'JINGzmr', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_74056357' },
-    { name: '祝贺琴', title: '22级负责人', qq: '15905560569', github: 'zhuheqqq', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_74111699' },
+    { name: '祝贺琴', title: '22级负责人', qq: '2528487925', github: 'zhuheqqq', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_74111699' },
     { name: '刘子璐', title: '', qq: '2399052066', github: 'L33Z22L11', linkText: '独立博客', link: 'https://blog.zhilu.cyou/' },
     { name: '王奕博', title: '', qq: '1156873578', github: 'YarBor', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_73062623' },
     { name: '赵方圆', title: '', qq: '768672249', github: 'zhendewokusi', linkText: '独立博客', link: 'https://yuanfang.thisis.host/' },

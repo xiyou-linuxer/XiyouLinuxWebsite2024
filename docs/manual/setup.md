@@ -1,6 +1,6 @@
 # 安装
 
-项目使用[VitePress](https://github.com/vuejs/vitepress)构建。
+项目使用 [VitePress](https://github.com/vuejs/vitepress) 构建。
 
 ## 配置项目环境
 
@@ -16,7 +16,7 @@ npm -v
 
 ## 克隆仓库
 
-使用以下的命令克隆[<i class="fa-brands fa-github"></i>XiyouLinuxWebsite2024](https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024)到本地。
+使用以下的命令克隆 [<i class="fa-brands fa-github"></i>XiyouLinuxWebsite2024](https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024) 到本地。
 
 ```sh
 git clone https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024.git

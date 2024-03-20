@@ -6,7 +6,7 @@
 
 ## 网站维护
 
-如果信息有误，请联系 <i class="fa-brands fa-qq"></i>QQ: 2399052066 。
+请自行查阅 [官网维护手册](/manual/) ， 向 [<i class="fa-brands fa-github"></i>官网仓库(2024)](https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024) 提交 Pull Request。
 
 ## 线上渠道
 

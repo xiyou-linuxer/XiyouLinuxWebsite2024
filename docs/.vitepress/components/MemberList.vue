@@ -71,7 +71,7 @@ export default {
   border-radius: 8px;
   height: 100%;
   background-color: var(--vp-c-bg-soft);
-  transition: border-color 0.25s, background-color 0.25s;
+  transition: border-color .1s;
   display: flex;
   flex-direction: column;
   align-items: center;

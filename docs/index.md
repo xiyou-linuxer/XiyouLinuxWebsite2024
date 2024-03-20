@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 西邮 Linux 兴趣小组
   text: <small>XiyouLinuxGroup</small>
-  tagline: Free Open Share / 自由 开放 共享
+  tagline: Open Free Share / 开放 自由 共享
   image:
     src: /logo2023_compressed.webp
     alt: 西邮Linux兴趣小组 Logo 2023
