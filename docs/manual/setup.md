@@ -79,4 +79,4 @@ pnpm exec vitepress dev docs
 
 :::
 
-开发服务应该会运行在 http://localhost:5173 上。在浏览器中访问 URL 以查看运行情况。
+开发服务应该会运行在 `http://localhost:5173` 上。

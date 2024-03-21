@@ -35,8 +35,8 @@ export default defineConfig({
     outline: { level: [2, 3], label: '目录' },
     returnToTopLabel: '返回顶部',
     editLink: {
-      pattern: 'https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024/edit/main/docs/:path',
-      text: '在 GitHub 上编辑此页面'
+      pattern: 'https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024/blame/main/docs/:path',
+      text: '源代码'
     },
     lastUpdated: {
       text: '更新于',
@@ -61,6 +61,7 @@ export default defineConfig({
 function nav(): DefaultTheme.NavItem[] {
   return [
     { text: '群博Blog', link: '//blog.xiyoulinux.com' },
+    { text: '培养Plan', link: '//plan.xiyoulinux.com' },
     { text: '成员', link: '/info/member' },
     { text: '活动', link: '/event/' },
     {

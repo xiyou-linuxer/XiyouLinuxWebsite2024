@@ -28,7 +28,7 @@ features:
   - icon: <i class="fa-solid fa-list-check"></i>
     title: Plan
     details: Xiyou Linux Group 培养计划，已开源在 GitHub，尽情探索研究吧！
-    link: https://github.com/xiyou-linuxer/Plan
+    link: https://plan.xiyoulinux.com
     linkText: GitHub
   - icon: <i class="fa-solid fa-bookmark"></i>
     title: Favorites
