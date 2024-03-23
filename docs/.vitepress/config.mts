@@ -6,7 +6,7 @@ export default defineConfig({
   title: '西邮 Linux 兴趣小组',
   description: '',
   lastUpdated: true,
-  cleanUrls: true,
+  // cleanUrls: true,
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -45,7 +45,7 @@ export default defineConfig({
     docFooter: { prev: '上一篇', next: '下一篇' },
 
     footer: {
-      message: '<a href="http://beian.miit.gov.cn">陕ICP备2023007680号-1</a> · <a href="/manual/">维护手册</a> · <a href="https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024">官网仓库</a>',
+      message: '<a href="http://beian.miit.gov.cn"><i class="fa-solid fa-shield-halved"></i>陕ICP备2023007680号-1</a> · <a href="/manual/"><i class="fa-solid fa-book"></i>维护手册</a> · <a href="https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024"><i class="fa-brands fa-github"></i>官网仓库</a>',
       copyright: `© 2006-${new Date().getFullYear()} 西邮 Linux 兴趣小组`
     },
   },
@@ -86,20 +86,20 @@ function nav(): DefaultTheme.NavItem[] {
 function dafaultSidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: '信息', items: [
+      text: '<i class="fa-solid fa-sitemap"></i> 信息', items: [
         { text: '小组介绍', link: '/info/' },
         { text: '成员', link: '/info/member' },
         { text: '友情链接', link: '/link' },
       ]
     },
     {
-      text: '活动', items: [
+      text: '<i class="fa-solid fa-calendar-days"></i> 活动', items: [
         { text: '主要活动', link: '/event/' },
         { text: '小型知识分享', link: '/event/weekly' },
       ]
     },
     {
-      text: '联系', items: [
+      text: '<i class="fa-solid fa-address-book"></i> 联系', items: [
         { text: '联系方式', link: '/info/contact' },
         { text: '加入我们', link: '/info/join' },
       ]
@@ -110,13 +110,14 @@ function dafaultSidebar(): DefaultTheme.SidebarItem[] {
 function manualSidebar(): DefaultTheme.SidebarItem[] {
   return [
     {
-      text: '官网维护手册', items: [
+      text: '<i class="fa-solid fa-book"></i> 官网维护手册', items: [
         { text: '概览', link: '/manual/' },
         { text: '安装', link: '/manual/setup' },
         { text: '配置', link: '/manual/config' },
         { text: '写作', link: '/manual/write' },
         {
           text: '组件', items: [
+            { text: '图标', link: '/manual/component/icon' },
             { text: '成员列表', link: '/manual/component/member-list' },
           ]
         },

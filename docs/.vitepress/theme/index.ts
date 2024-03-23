@@ -3,6 +3,7 @@ import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import './style.css'
+import { Icon } from '@iconify/vue'
 
 export default {
   extends: DefaultTheme,
@@ -12,5 +13,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    app.component("Icon", Icon)
   }
 } satisfies Theme

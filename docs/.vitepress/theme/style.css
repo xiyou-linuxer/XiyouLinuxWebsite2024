@@ -47,9 +47,12 @@ strong {
 
 .fa-solid,
 .fa-regular,
-.fa-brands {
+.fa-brands,
+.iconify {
+  display: inline-block;
   width: 1.3em;
   text-align: center;
+  vertical-align: middle;
 }
 
 .icon {

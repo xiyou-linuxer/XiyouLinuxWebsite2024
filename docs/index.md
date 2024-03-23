@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 西邮 Linux 兴趣小组
   text: <small>XiyouLinuxGroup</small>
-  tagline: Open Free Share / 开放 自由 共享
+  tagline: Free Open Share / 自由 开放 共享
   image:
     src: /logo2023_compressed.webp
     alt: 西邮Linux兴趣小组 Logo 2023
@@ -29,7 +29,7 @@ features:
     title: Plan
     details: Xiyou Linux Group 培养计划，已开源在 GitHub，尽情探索研究吧！
     link: https://plan.xiyoulinux.com
-    linkText: GitHub
+    linkText: 访问
   - icon: <i class="fa-solid fa-bookmark"></i>
     title: Favorites
     details: 计算机科学收藏夹计划，用于索引已公开的高质量的计算机科学相关资源与工具。
