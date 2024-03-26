@@ -53,14 +53,14 @@ pnpm i
 你可以参考 VitePress 官方文档的 [快速开始](https://vitepress.dev/zh/guide/getting-started) 一节。
 :::
 
-`docs:dev` 脚本将启动具有即时热更新的本地开发服务器。使用以下命令运行它：
+`dev` 脚本将启动具有即时热更新的本地开发服务器。使用以下命令运行它：
 
 ::: code-group
 ```sh [npm]
-npm run docs:dev
+npm run dev
 ```
 ```sh [pnpm]
-pnpm run docs:dev
+pnpm run dev
 ```
 :::
 
@@ -79,4 +79,4 @@ pnpm exec vitepress dev docs
 
 :::
 
-开发服务应该会运行在 `http://localhost:5173` 上。
+本地开发服务应该会运行在 `localhost:5173` 上。

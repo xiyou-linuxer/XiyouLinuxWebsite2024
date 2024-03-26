@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "vitepress": "1.0.0-rc.45"
+    "vitepress": "^1.0.1"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev docs --host",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "devDependencies": {
     "@iconify/vue": "^4.1.1"
