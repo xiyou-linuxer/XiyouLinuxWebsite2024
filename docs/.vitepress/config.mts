@@ -45,7 +45,7 @@ export default defineConfig({
     docFooter: { prev: '上一篇', next: '下一篇' },
 
     footer: {
-      message: '<a href="http://beian.miit.gov.cn"><i class="fa-solid fa-shield-halved"></i>陕ICP备2023007680号-1</a> · <a href="/manual/"><i class="fa-solid fa-book"></i>维护手册</a> · <a href="https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024"><i class="fa-brands fa-github"></i>官网仓库</a>',
+      message: '<a href="http://beian.miit.gov.cn" target="_blank"><i class="fa-solid fa-shield-halved"></i>陕ICP备2023007680号-1</a> · <a href="/manual/"><i class="fa-solid fa-book"></i>维护手册</a> · <a href="https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024" target="_blank"><i class="fa-brands fa-github"></i>官网仓库</a>',
       copyright: `© 2006-${new Date().getFullYear()} 西邮 Linux 兴趣小组`
     },
   },
