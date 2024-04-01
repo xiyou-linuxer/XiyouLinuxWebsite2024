@@ -1,4 +1,4 @@
-# 安装
+# 本地运行
 
 项目使用 [VitePress](https://github.com/vuejs/vitepress) 构建。
 

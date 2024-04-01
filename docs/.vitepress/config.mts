@@ -3,10 +3,11 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-Hans',
-  title: '西邮 Linux 兴趣小组',
+  title: '西邮 Linux 兴趣小组',
   description: '',
   lastUpdated: true,
-  // cleanUrls: true,
+  // 需要在 nginx 中配置 index, try_files 和 error_page
+  cleanUrls: true,
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -46,7 +47,7 @@ export default defineConfig({
 
     footer: {
       message: '<a href="http://beian.miit.gov.cn" target="_blank"><i class="fa-solid fa-shield-halved"></i>陕ICP备2023007680号-1</a> · <a href="/manual/"><i class="fa-solid fa-book"></i>维护手册</a> · <a href="https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024" target="_blank"><i class="fa-brands fa-github"></i>官网仓库</a>',
-      copyright: `© 2006-${new Date().getFullYear()} 西邮 Linux 兴趣小组`
+      copyright: `© 2006-${new Date().getFullYear()} 西邮 Linux 兴趣小组`
     },
   },
 
@@ -72,7 +73,7 @@ function nav(): DefaultTheme.NavItem[] {
           items: [
             { text: 'GitHub', link: 'https://github.com/xiyou-linuxer' },
             { text: '邮件列表', link: 'https://groups.google.com/g/xiyoulinux' },
-            { text: '公众号', link: '/contact#mp' },
+            { text: '公众号', link: '/info/contact#mp' },
             { text: '哔哩哔哩', link: 'https://space.bilibili.com/432976868/' },
             { text: '微博', link: 'https://www.weibo.com/n/西邮Linux兴趣小组' },
           ]
@@ -112,9 +113,9 @@ function manualSidebar(): DefaultTheme.SidebarItem[] {
     {
       text: '<i class="fa-solid fa-book"></i> 官网维护手册', items: [
         { text: '概览', link: '/manual/' },
-        { text: '安装', link: '/manual/setup' },
-        { text: '配置', link: '/manual/config' },
-        { text: '写作', link: '/manual/write' },
+        { text: '本地运行', link: '/manual/setup' },
+        { text: '配置修改', link: '/manual/config' },
+        { text: '写作指南', link: '/manual/write' },
         {
           text: '组件', items: [
             { text: '图标', link: '/manual/component/icon' },
