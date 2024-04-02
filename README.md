@@ -4,16 +4,16 @@
 
 ## Documentation
 
-[在线维护手册](https://xiyoulinux.com/manual/)
+[维护手册](https://xiyoulinux.com/manual/)（在线页面）
 
 仓库内维护文档在 [`docs/manual/`](/docs/manual/) 文件夹下。
 
 ## Changelog
 
-[在线更新日志](https://xiyoulinux.com/manual/log.html)
+[更新日志](https://xiyoulinux.com/manual/log.html)（在线页面）
 
 仓库内更新日志：[`/docs/manual/log.md`](/docs/manual/log)
 
 ## Contribute
 
-欢迎提交 PR，请先阅读 [Documentation](#Documentation)。
+欢迎提交 PR，请先阅读上方 [Documentation](#Documentation) 一节的说明。

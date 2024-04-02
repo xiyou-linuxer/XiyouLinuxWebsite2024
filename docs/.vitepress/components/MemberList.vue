@@ -1,19 +1,10 @@
 <script>
-export default {
-  name: 'MemberList',
-
-  props: {
-    data: {
-      type: Array,
-      required: true
-    }
-  }
-}
+export default { props: { data: { type: Array } } }
 </script>
 
 <template>
   <div class="members">
-    <div class="card" v-for="member in data">
+    <div class="card" v-for="member in data" :key="member.name">
       <div class="avatar"
         :style="`background-image: url(https://github.com/${member.github}.png), url(https://q1.qlogo.cn/g?b=qq&nk=${member.qq}&s=3), url(/favicon.ico)`">
       </div>
