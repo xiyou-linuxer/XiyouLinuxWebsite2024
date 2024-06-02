@@ -1,5 +1,5 @@
 export default {
-  g2023: [
+  '2023级': [
     { name: '方泽亚', title: '', qq: '2261214089', github: 'marsevilspirit', linkText: 'CSDN', link: 'https://blog.csdn.net/2302_79740417' },
     { name: '吕浩楠', title: '', qq: '1305969480', github: 'SIMple-lives', linkText: '独立博客', link: 'https://future.thisis.host' },
     { name: '代凌嘉', title: '', qq: '2098600899', github: 'yunjianshijie', linkText: '独立博客', link: 'https://yunjianworld.fun' },
@@ -17,7 +17,7 @@ export default {
     { name: '王佳', title: '', qq: '2323656816', github: 'no-regret666', linkText: 'CSDN', link: 'https://blog.csdn.net/2301_80278282' },
     { name: '张奕宸', title: '', qq: '2976002717', github: 'erthern', linkText: 'CSDN', link: 'https://blog.csdn.net/thunderblue' },
   ],
-  g2022: [
+  '2022级': [
     { name: '袁小天', title: '22级负责人', qq: '1179188517', github: 'tiny-sky', linkText: 'CSDN', link: 'https://blog.csdn.net/m0_74114450' },
     { name: '张敏睿', title: '22级负责人', qq: '2743377630', github: 'JINGzmr', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_74056357' },
     { name: '祝贺琴', title: '22级负责人', qq: '2528487925', github: 'zhuheqqq', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_74111699' },
@@ -31,7 +31,7 @@ export default {
     { name: '马熙镈', title: '', qq: '1160433376', github: 'abljiu', linkText: 'CSDN', link: 'https://blog.csdn.net/m0_50784589' },
     { name: '林洲毅', title: '', qq: '1691755806', github: '0joe1', linkText: '简书', link: 'https://www.jianshu.com/u/1ab34540ae23' },
   ],
-  g2021: [
+  '2021级': [
     { name: '杨鹏达', title: '21级负责人', qq: '1293821619', github: 'Daz-3ux', linkText: '独立博客', link: 'https://daz-3ux.github.io/' },
     { name: '史站丽', title: '21级负责人', qq: '2519652258', github: 'aurorg', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_62017112' },
     { name: '王康宁', title: '21级负责人', qq: '3390142252', github: '123kangning', linkText: 'CSDN', link: 'https://blog.csdn.net/m0_61021034' },
@@ -44,11 +44,11 @@ export default {
     { name: '李泉霖', title: '', qq: '1846001028', github: 'yeyr2', linkText: 'CSDN', link: 'https://blog.csdn.net/yeyr2' },
     { name: '封宇腾', title: '', qq: '605325871', github: 'Fkbqf', linkText: '', link: '' },
     { name: '胡宇腾', title: '', qq: '1160756683', github: 'Alipebt', linkText: '', link: '' },
-    { name: '袁野', title: '', qq: '1657615110', github: 'Yuanmxc', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_63733944' },
+    { name: '袁野', title: '', qq: '1657615110', github: 'Yuanmxc', linkText: '独立博客', link: 'yuanmxc.site' },
     { name: '颜然', title: '', qq: '1362577609', github: 'yanyanran', linkText: '博客仓库', link: 'https://github.com/yanyanran/YBlog' },
     { name: '姚思远', title: '', qq: '1550949541', github: 'XiaoYaoheihei', linkText: 'CSDN', link: 'https://blog.csdn.net/m0_61629651' },
   ],
-  g2020: [
+  '2020级': [
     { name: '任子涧', title: '', qq: '1825807224', github: 'yegetables', linkText: 'CSDN', link: 'https://blog.csdn.net/ajian_ajian' },
     { name: '赵子玮', title: '', qq: '1415105401', github: 'Y7n05h', linkText: '独立博客', link: 'https://blog.y7n05h.dev/' },
     { name: '佟亦凡', title: '', qq: '1552068173', github: 'BBAslayer', linkText: 'CSDN', link: 'https://blog.csdn.net/m0_52394388' },
@@ -68,7 +68,7 @@ export default {
     { name: '朱佳琳', title: '', qq: '1819314117', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/m0_53313553' },
     { name: '赵湘平', title: '', qq: '2501159222', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_53218932' },
   ],
-  g2019: [
+  '2019级': [
     { name: '周阔', title: '', qq: '1178053078', github: 'zhoukuo123', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_45626515' },
     { name: '吴烜章', title: '', qq: '3100563328', github: 'bokket', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_45819130' },
     { name: '刘裕基', title: '', qq: '2495970924', github: 'HumbleHunger', linkText: 'CSDN', link: 'https://blog.csdn.net/humblehunger' },
@@ -83,7 +83,7 @@ export default {
     { name: '程天翼', title: '', qq: '505365717', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/ensemblelearning' },
     { name: '何磊磊', title: '', qq: '1321113511', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_45868783' },
   ],
-  g2018: [
+  '2018级': [
     { name: '胡庆伟', title: '', qq: '294340582', github: 'huloves', linkText: 'CSDN', link: 'https://blog.csdn.net/qq_43769572' },
     { name: '李兆龙', title: '', qq: '2339824768', github: 'Super-long', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_43705457' },
     { name: '高星坤', title: '', qq: '1005035266', github: 'g1050', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_43812622' },
@@ -97,7 +97,7 @@ export default {
     { name: '杨思语', title: '', qq: '2142530745', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/cosineta' },
     { name: '吴新悦', title: '', qq: '2651695211', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/qq_44235467' },
   ],
-  g2017: [
+  '2017级': [
     { name: '畅柯', title: '', qq: '1433882609', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/qq_41681241' },
     { name: '陈健源', title: '', qq: '1026546351', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/jiange702' },
     { name: '陈新', title: '', qq: '1084199664', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/Cxinsect' },
@@ -115,7 +115,7 @@ export default {
     { name: '朱文博', title: '', qq: '879658730', github: 'zhuwenboa', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_42250655' },
     { name: '朱一琛', title: '', qq: '3498558277', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/qq_41145192' },
   ],
-  g2016: [
+  '2016级': [
     { name: '陈苏扬', title: '', qq: '583627195', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/helloworld19970916' },
     { name: '王良', title: '', qq: '1459775963', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/liushall' },
     { name: '高嘉两', title: '', qq: '1303393472', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/aliegjln' },
@@ -132,7 +132,7 @@ export default {
     { name: '胡佳露', title: '', qq: '974520639', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/qq_36573828' },
     { name: '贺含悦', title: '', qq: '979641269', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/hxllhhy' },
   ],
-  g2015: [
+  '2015级': [
     { name: '何攀', title: '', qq: '884556295', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/Oscer2016' },
     { name: '闫钰晨', title: '', qq: '794990923', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/yyc794990923' },
     { name: '冯鑫', title: '', qq: '903087053', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/fengxinlinux' },
@@ -152,7 +152,7 @@ export default {
     { name: '康艺杰', title: '', qq: '815143609', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/xiyoulinux_kangyijie' },
     { name: '蒙祺殷', title: '', qq: '457886229', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/Monkerys' },
   ],
-  g2014: [
+  '2014级': [
     { name: '朱新全', title: '', qq: '1174272148', github: 'zhuxinquan', linkText: 'CSDN', link: 'https://blog.csdn.net/zhuxinquan61' },
     { name: '胡嘉辉', title: '', qq: '512729961', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/hjh_walker' },
     { name: '师毅', title: '', qq: '458241107', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/to_be_better' },
@@ -166,7 +166,7 @@ export default {
     { name: '杨龙飞', title: '', qq: '1198513009', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/whoamiyang' },
     { name: '张明瑞', title: '', qq: '1797763610', github: 'zmr961006', linkText: '', link: '' },
   ],
-  g2013: [
+  '2013级': [
     { name: '李林翰', title: '13级负责人', qq: '693465363', github: 'lilinhan', linkText: '', link: '' },
     { name: '陈迪', title: '', qq: '', github: '', linkText: '', link: '' },
     { name: '陈志诚', title: '', qq: '603291732', github: '', linkText: '', link: '' },
@@ -183,7 +183,7 @@ export default {
     { name: '王伟豪', title: '', qq: '578867817', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/wwh578867817' },
     { name: '许博东', title: '', qq: '1137357896', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/xubodong' },
   ],
-  g2012: [
+  '2012级': [
     { name: '常宫小戎', title: '', qq: '1287443975', github: 'cgxryy', linkText: 'CSDN', link: 'https://blog.csdn.net/cgxrit' },
     { name: '陈志伟', title: '', qq: '', github: '', linkText: '', link: '' },
     { name: '崔姣姣', title: '', qq: '1796843639', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/cuijiaojiaofendou' },
@@ -206,7 +206,7 @@ export default {
     { name: '张续', title: '', qq: '273607356', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/sapphirestart' },
     { name: '张永军', title: '', qq: '910261782', github: '', linkText: '', link: '' },
   ],
-  g2011: [
+  '2011级': [
     { name: '刘欢', title: '', qq: '595516553', github: 'hurley25', linkText: '独立博客', link: 'https://www.0xffffff.org' },
     { name: '刘晖', title: '', qq: '1941267423', github: '', linkText: '', link: '' },
     { name: '李力', title: '', qq: '842043799', github: '', linkText: '', link: '' },
@@ -231,12 +231,12 @@ export default {
     { name: '何凤存', title: '', qq: '571913598', github: '', linkText: '', link: '' },
     { name: '吕伟', title: '', qq: '393825817', github: 'qq393825817', linkText: 'CSDN', link: 'https://blog.csdn.net/qq393825817' },
     { name: '沈昭萌', title: '', qq: '942905645', github: '', linkText: 'CSDN', link: 'https://blog.csdn.net/sim_szm' },
-    { name: '刘凯', title: '', qq: '346512016', github: '', linkText: '', link: '' },
+    { name: '刘凯', title: '', qq: '346512016', github: 'kolapapa', linkText: '', link: '' },
     { name: '雷雨', title: '', qq: '754781670', github: '', linkText: '', link: '' },
     { name: '相柯南', title: '', qq: '635447046', github: '', linkText: '', link: '' },
     { name: '张利鹏', title: '', qq: '820221185', github: '', linkText: '', link: '' },
   ],
-  g2010: [
+  '2010级': [
     { name: '陈嘉杰', title: '', qq: '527163529', github: '', linkText: '', link: '' },
     { name: '杜斌', title: '', qq: '120683396', github: '', linkText: '', link: '' },
     { name: '高家升', title: '', qq: '835875804', github: '', linkText: '', link: '' },
@@ -257,7 +257,7 @@ export default {
     { name: '张释文', title: '', qq: '770367132', github: 'wenshizhang', linkText: 'CSDN', link: 'https://blog.csdn.net/sium__' },
     { name: '卓恒', title: '', qq: '260933192', github: '', linkText: '', link: '' },
   ],
-  g2009: [
+  '2009级': [
     { name: '代晋玮', title: '', qq: '454295863', github: '', linkText: '', link: '' },
     { name: '杜勃勃', title: '', qq: '1079825493', github: '', linkText: '', link: '' },
     { name: '郜翼', title: '', qq: '1162601897', github: '', linkText: '', link: '' },
@@ -281,7 +281,7 @@ export default {
     { name: '赵渭洛', title: '', qq: '496427675', github: '', linkText: '', link: '' },
     { name: '赵小芳', title: '', qq: '42182994', github: '', linkText: '', link: '' },
   ],
-  g2008: [
+  '2008级': [
     { name: '陈磊', title: '', qq: '461896987', github: '', linkText: '', link: '' },
     { name: '穆毅鹏', title: '', qq: '316462198', github: '', linkText: '', link: '' },
     { name: '郭仲杰', title: '', qq: '263370523', github: '', linkText: '', link: '' },
@@ -301,7 +301,7 @@ export default {
     { name: '赵志强', title: '', qq: '1012521478', github: '', linkText: '', link: '' },
     { name: '孙志强', title: '', qq: '807635102', github: '', linkText: '', link: '' },
   ],
-  g2007: [
+  '2007级': [
     { name: '曹江锋', title: '', qq: '286131944', github: '', linkText: 'ChinaUnix', link: 'http://blog.chinaunix.net/uid/20754793.html' },
     { name: '陈百虎', title: '', qq: '1317220328', github: '', linkText: '', link: '' },
     { name: '胡雪林', title: '', qq: '467519016', github: '', linkText: 'ChinaUnix', link: 'http://blog.chinaunix.net/uid/20754253.html' },
@@ -315,7 +315,7 @@ export default {
     { name: '赵格娟', title: '', qq: '690756730', github: '', linkText: '', link: '' },
     { name: '周永飞', title: '', qq: '88073351', github: '', linkText: '', link: '' },
   ],
-  g2006: [
+  '2006级': [
     { name: '李阳', title: '', qq: '5947313', github: '', linkText: '', link: '' },
     { name: '张斌', title: '', qq: '491176667', github: '', linkText: '独立博客', link: 'https://iamsk.info' },
     { name: '陈峰扬', title: '', qq: '253265992', github: '', linkText: '', link: '' },
@@ -327,7 +327,7 @@ export default {
     { name: '边疆', title: '', qq: '370319086', github: 'brucebian', linkText: '', link: '' },
     { name: '陈继峰', title: '', qq: '250776862', github: 'chenamy2017', linkText: '', link: '' },
   ],
-  g2005: [
+  '2005级': [
     { name: '孔建军', title: '', qq: '284432342', github: '', linkText: '独立博客', link: 'https://amoskong.github.io/' },
     { name: '王立丽', title: '', qq: '', github: '', linkText: '', link: '' },
     { name: '肖纯', title: '', qq: '165324199', github: '', linkText: '', link: '' },
@@ -335,7 +335,7 @@ export default {
     { name: '高辉', title: '', qq: '', github: '', linkText: '', link: '' },
     { name: '王森', title: '', qq: '', github: '', linkText: '', link: '' },
   ],
-  g2004: [
+  '2004级': [
     { name: '王聪', title: '', qq: '', github: '', linkText: '', link: '' },
     { name: '刘洋', title: '', qq: '21005129', github: '', linkText: '', link: '' },
     { name: '周晓炜', title: '', qq: '328606259', github: '', linkText: '', link: '' },

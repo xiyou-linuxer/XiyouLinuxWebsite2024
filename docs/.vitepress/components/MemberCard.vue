@@ -12,7 +12,7 @@ const props = defineProps<{
 
 const avatarLink = computed(() => {
   return props.github
-    ? `https://github.com/${props.github}.png`
+    ? `https://wsrv.nl/?url=github.com/${props.github}.png`
     : props.qq
       ? `https://q1.qlogo.cn/g?b=qq&nk=${props.qq}&s=3`
       : `/favicon.ico`;
