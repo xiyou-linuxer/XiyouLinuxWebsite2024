@@ -24,7 +24,7 @@ export default {
     { name: '刘子璐', title: '', qq: '2399052066', github: 'L33Z22L11', linkText: '独立博客', link: 'https://blog.zhilu.cyou/' },
     { name: '王奕博', title: '', qq: '1156873578', github: 'YarBor', linkText: 'CSDN', link: 'https://blog.csdn.net/weixin_73062623' },
     { name: '赵方圆', title: '', qq: '768672249', github: 'zhendewokusi', linkText: '独立博客', link: 'https://yuanfang.thisis.host/' },
-    { name: '王鑫文', title: '', qq: '2077262712', github: 'ShawnJeffersonWang', linkText: 'CSDN', link: 'https://blog.csdn.net/m0_73960806' },
+    { name: '王鑫文', title: '', qq: '2077262712', github: 'ShawnJeffersonWang', linkText: '独立博客', link: 'https://shawn.thisis.host/' },
     { name: '卢靖超', title: '', qq: '1989871763', github: 'Gidi233', linkText: 'CSDN', link: 'https://blog.csdn.net/qq_74050480' },
     { name: '朱浩杰', title: '', qq: '2816137428', github: 'muapredicter', linkText: 'CSDN', link: 'https://blog.csdn.net/zhu_hao_jie' },
     { name: '尉琳馨', title: '', qq: '3287639847', github: 'AAAwlx', linkText: 'CSDN', link: 'https://blog.csdn.net/m0_73134296' },
