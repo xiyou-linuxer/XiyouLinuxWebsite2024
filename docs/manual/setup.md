@@ -12,7 +12,7 @@
 npm -v
 ```
 
-如果看到诸如 `10.5.0` 的版本号输出，说明成功安装了 Node.js 和 npm。如果提示找不到命令，请使用包管理器安装 npm 。
+如果看到诸如 `10.5.0` 的版本号输出，说明成功安装了 Node.js 和 npm。如果提示找不到命令，请使用包管理器安装 npm。
 
 ## 克隆仓库
 
@@ -39,11 +39,11 @@ cd XiyouLinuxWebsite2024
 使用 npm 或者其他管理工具安装项目依赖：
 
 ::: code-group
-```sh [npm]
-npm i
-```
 ```sh [pnpm]
 pnpm i
+```
+```sh [npm]
+npm i
 ```
 :::
 
@@ -56,11 +56,11 @@ pnpm i
 `dev` 脚本将启动具有即时热更新的本地开发服务器。使用以下命令运行它：
 
 ::: code-group
-```sh [npm]
-npm run dev
-```
 ```sh [pnpm]
 pnpm run dev
+```
+```sh [npm]
+npm run dev
 ```
 :::
 
