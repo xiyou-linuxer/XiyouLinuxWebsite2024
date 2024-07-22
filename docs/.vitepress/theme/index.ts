@@ -7,14 +7,14 @@ import { Icon } from '@iconify/vue'
 import Footer from '/.vitepress/components/Footer.vue'
 
 export default {
-  extends: DefaultTheme,
-  Layout: () => {
-    return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
-      'doc-bottom': () => h(Footer),
-    })
-  },
-  enhanceApp({ app, router, siteData }) {
-    app.component("Icon", Icon)
-  }
+    extends: DefaultTheme,
+    Layout: () => {
+        return h(DefaultTheme.Layout, null, {
+            // https://vitepress.dev/guide/extending-default-theme#layout-slots
+            'doc-bottom': () => h(Footer),
+        })
+    },
+    enhanceApp({ app, router, siteData }) {
+        app.component('Icon', Icon)
+    },
 } satisfies Theme

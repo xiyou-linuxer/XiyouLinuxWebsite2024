@@ -1,4 +1,4 @@
-# 西邮 Linux 兴趣小组官网
+# 西邮 Linux 兴趣小组官网
 
 2024年3月14日立项，采用 VitePress 框架，由 @[L33Z22L11](https://github.com/L33Z22L11) 维护。
 
@@ -10,9 +10,9 @@
 
 ## Changelog
 
-[更新日志](https://xiyoulinux.com/manual/log.html)（在线页面）
+[更新日志](https://xiyoulinux.com/changelog.html)（在线页面）
 
-仓库内更新日志：[`/docs/manual/log.md`](/docs/manual/log)
+仓库内更新日志：[`/docs/changelog.md`](/docs/changelog)
 
 ## Contribute
 

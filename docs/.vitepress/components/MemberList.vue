@@ -1,39 +1,57 @@
 <script lang="ts" setup>
-import { ref } from 'vue';
-import MemberCard from "./MemberCard.vue";
-import { MemberProps } from "./MemberCard.vue";
+import { computed, ref } from 'vue'
+import type { MemberProps } from './MemberCard.vue'
+import MemberCard from './MemberCard.vue'
 
-const props = defineProps<{ members: Record<string, MemberProps> }>();
-const activeGrade = ref<string>(Object.keys(props.members)[0]);
+const props = defineProps<{
+    members: Array<{
+        grade: string
+        members: Array<MemberProps>
+    }>
+    from?: number
+    to?: number
+}>()
+
+const selectedMembers = computed(() => {
+    const from = props.from ?? 0
+    const to = props.to ?? props.members.length
+    return props.members.slice(from, to)
+})
+
+const activeGradeIndex = ref<string>(selectedMembers.value[0]?.grade || '')
 
 function setActiveGrade(grade: string) {
-    activeGrade.value = grade;
+    activeGradeIndex.value = grade
 }
 </script>
 
 <template>
     <div class="tabs-container">
         <div class="tabs">
-            <button v-for="(members, grade) in members" :key="grade" :class="{ active: activeGrade === grade }"
-                @click="setActiveGrade(grade)">
-                <span class="grade">{{ grade }}</span>
-                <span class="badge">{{ members.length }}</span>
+            <button v-for="(gradeObj, gradeIndex) in selectedMembers" :key="gradeIndex"
+                :class="{ active: activeGradeIndex === gradeObj.grade }" @click="setActiveGrade(gradeObj.grade)">
+                <span class="grade">{{ gradeObj.grade }}</span>
+                <span class="badge">{{ gradeObj.members.length }}</span>
             </button>
         </div>
-        <div class="tab-contents" v-for="(members, grade) in members" :key="grade" v-show="activeGrade === grade">
+        <div v-for="gradeObj in selectedMembers" v-show="activeGradeIndex === gradeObj.grade" :key="gradeObj.grade"
+            class="tab-contents">
             <div class="members">
-                <member-card v-for="member in members" :key="member.name" v-bind="member" />
+                <MemberCard v-for="member in gradeObj.members" :key="member.name" v-bind="member" />
             </div>
         </div>
     </div>
 </template>
 
 <style scoped>
+.tabs-container>* {
+    margin: 2rem 0;
+}
+
 .tabs {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
-    margin: 2rem 0;
     flex-wrap: wrap;
 }
 
@@ -47,11 +65,11 @@ function setActiveGrade(grade: string) {
     cursor: pointer;
 }
 
-.tabs button > * {
+.tabs button>* {
     padding: 2px 4px;
 }
 
-.tabs button > .badge {
+.tabs button>.badge {
     background-color: var(--vp-c-default-soft);
 }
 

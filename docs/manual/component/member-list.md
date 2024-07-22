@@ -1,3 +1,7 @@
+<script setup>
+  const curYear = new Date().getFullYear()
+</script>
+
 # 成员列表组件
 
 ::: tip
@@ -38,31 +42,31 @@
 
 成员信息应当从在线文档中修改，其中也编写好了用于生成代码的单元格函数，应该类似这样：
 
-```js
+```excel
 // Excel 语法
 // 将某一行中的成员转换为 JavaScript 对象代码
 ="{name:'"&A1&"',title:'"&C1&"',qq:'"&D1&"',github:'"&E1&"',linkText:'"&F1&"',link:'"&G1&"'},"
 
 // 汇总指定年级的结果，A3为要汇总的年级，成员信息表B列为年级，H列为每一个成员的对象代码
-="'"&A3&"级':["&CHAR(10)&TEXTJOIN(CHAR(10),TRUE,FILTER(成员信息!H:H,成员信息!B:B=A3))&CHAR(10)&"],"
+="{grade:'"&A3&"级',members:["&CHAR(10)&TEXTJOIN(CHAR(10),TRUE,FILTER(成员信息!H:H,成员信息!B:B=A3))&CHAR(10)&"]},"
 ```
 
-最终生成的结果如下：
+最终生成的表格如下：
 
-| 年级       | 符合条件的值拼接                                           |
-| ---------- | ---------------------------------------------------------- |
-| [代码前缀] | export default {                                           |
-| 2023       | '2023级': [ ... ], <Badge type="info" text="由公式生成" /> |
-| 2022       | '2022级': [ ... ], <Badge type="info" text="由公式生成" /> |
-| ...        | ...                                                        |
-| 2004       | '2004级': [ ... ], <Badge type="info" text="由公式生成" /> |
-| [代码后缀] | };                                                         |
+| 年级          | 符合条件的值拼接                                                                     |
+| ------------- | ------------------------------------------------------------------------------------ |
+| [代码前缀]    | export default [                                                                     |
+| {{curYear}}   | { grade: '{{curYear}}', members: [ ... ]}, <Badge type="info" text="由公式生成" />   |
+| {{curYear-1}} | { grade: '{{curYear-1}}', members: [ ... ]}, <Badge type="info" text="由公式生成" /> |
+| ...           | ...                                                                                  |
+| 2004          | { grade: '2004级', members: [ ... ]}, <Badge type="info" text="由公式生成" />        |
+| [代码后缀]    | ];                                                                                   |
 
 直接将第二列含有代码的单元格从上到下选中，复制粘贴到 `docs/.vitepress/components/memberData.js` 中，保存文件。
 
 ### 成员信息数据结构
 
-在 `docs/.vitepress/components/memberData.js` 中，可以看到默认导出对象中有许多名为 `NNNN级` 的数组，它们代表 [年份] 年级的成员信息。
+在 `docs/.vitepress/components/memberData.js` 中，可以看到默认导出对象是一个对象数组，数组中的每个元素的 `grade` 属性代表 [年份] 年级，`members` 属性代表该年级的成员信息。
 
 每个成员以对象的形式表示，包含以下属性：
 - `name`: 姓名。
@@ -71,4 +75,3 @@
 - `github`: 成员的 GitHub 用户名。
 - `linkText`: 成员自定义的链接名称（可选，如`CSDN`、`独立博客`、`B站`）。
 - `link`: 成员的自定义链接地址。
-

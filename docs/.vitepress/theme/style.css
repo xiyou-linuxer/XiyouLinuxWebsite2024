@@ -1,62 +1,61 @@
 :root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(60deg, #2ca, #ec0);
-  --vp-home-hero-image-background-image: linear-gradient(30deg, #ec0 50%, #2ca 50%);
-  --vp-home-hero-image-filter: blur(8em);
-
-  --vp-c-brand-1: #2b9;
-  --vp-c-brand-2: #3ca;
-  --vp-c-brand-3: #1a8;
-  --vp-c-brand-soft: #44ddbb44;
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: linear-gradient(60deg, #2ca, #ec0);
+    --vp-home-hero-image-background-image: linear-gradient(30deg, #ec0 50%, #2ca 50%);
+    --vp-home-hero-image-filter: blur(8em);
+    --vp-c-brand-1: #2b9;
+    --vp-c-brand-2: #3ca;
+    --vp-c-brand-3: #1a8;
+    --vp-c-brand-soft: #2b93;
 }
 
 ::selection {
-  background-color: var(--vp-c-brand-soft);
+    background-color: var(--vp-c-brand-soft);
 }
 
 @font-face {
-  font-family: '标小智无界黑';
-  font-weight: bold;
-  src: url(/static/BiaoXiaoZhiWuJieHei.otf);
+    font-family: "标小智无界黑";
+    font-weight: bold;
+    src: url("/static/BiaoXiaoZhiWuJieHei.otf");
 }
 
 .VPHero .name,
 .VPHero .text,
 .font-wjh {
-  font-family: '标小智无界黑', sans-serif;
+    font-family: "标小智无界黑", sans-serif;
 }
 
-.VPMenuGroup>.title {
-  font-size: 11px;
+.VPMenuGroup > .title {
+    font-size: 11px;
 }
 
 .vp-doc a {
-  transition: .2s;
-  text-decoration: none;
-  background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
+    background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
 .vp-doc a:hover {
-  background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
-  border-radius: .2em;
+    border-radius: 0.2em;
+    background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
 }
 
 strong {
-  background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
+    background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
 }
 
 .fa-solid,
 .fa-regular,
 .fa-brands,
 .iconify {
-  display: inline-block;
-  width: 1.3em;
-  text-align: center;
-  vertical-align: middle;
+    display: inline-block;
+    width: 1.3em;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .icon {
-  display: inline-block;
-  vertical-align: middle;
-  height: 1.5em;
+    display: inline-block;
+    height: 1.5em;
+    vertical-align: middle;
 }
