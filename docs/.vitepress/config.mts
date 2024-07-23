@@ -16,10 +16,13 @@ export default defineConfig({
         nav: nav(),
 
         sidebar: {
-            // 以首次匹配的侧边栏为主，因此路径需要尾随斜杠
-            '/': dafaultSidebar(),
+            // 以首次匹配的侧边栏为主
+            '/changelog': manualSidebar(),
+            // 路径需要尾随斜杠
             '/manual/': manualSidebar(),
             '/life/': lifeSidebar(),
+            // 默认侧边栏
+            '/': dafaultSidebar(),
         },
 
         socialLinks: [
