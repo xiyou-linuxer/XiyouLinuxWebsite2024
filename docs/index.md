@@ -3,12 +3,12 @@ titleTemplate: XiyouLinuxGroup
 layout: home
 
 hero:
-  name: 西邮 Linux 兴趣小组
+  name: 西邮 Linux 兴趣小组
   text: <small>XiyouLinuxGroup</small>
   tagline: Free Open Share / 自由 开放 共享
   image:
     src: /logo2023_compressed.webp
-    alt: 西邮 Linux 兴趣小组 Logo 2023
+    alt: 西邮 Linux 兴趣小组 Logo 2023
   actions:
     - theme: brand
       text: 介绍
@@ -22,7 +22,7 @@ hero:
 features:
   - icon: <i class="fa-solid fa-blog"></i>
     title: 小组群博
-    details: 西邮 Linux 兴趣小组历届成员博客集合，Enjoy it!
+    details: 西邮 Linux 兴趣小组历届成员博客集合，Enjoy it!
     link: //blog.xiyoulinux.com
     linkText: 访问
   - icon: <i class="fa-solid fa-list-check"></i>

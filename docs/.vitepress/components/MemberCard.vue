@@ -46,7 +46,7 @@ const avatarLink = computed(() => {
     line-height: 1.2em;
 }
 
-.card>.avatar {
+.card > .avatar {
     width: 3rem;
     height: 3rem;
     margin: 0.5rem 0;
@@ -54,11 +54,11 @@ const avatarLink = computed(() => {
     box-shadow: 2px 4px 1rem var(--vp-c-divider);
 }
 
-.card>.name {
+.card > .name {
     font-weight: 600;
 }
 
-.card>.title {
+.card > .title {
     flex-grow: 1;
     margin-bottom: 0.5em;
     font-size: 0.8em;

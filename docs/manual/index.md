@@ -1,12 +1,12 @@
 # 官网维护手册
 
-西邮 Linux 兴趣小组自 2006 年成立至今，已经历 {{ new Date().getFullYear() - 2006 }} 载风风雨雨，也成就了许多优秀人才。
+西邮 Linux 兴趣小组自 2006 年成立至今，已经历 {{ new Date().getFullYear() - 2006 }} 载风风雨雨，也成就了许多优秀人才。
 
 然而，2024 年 3 月开始维护修缮线上服务的过程中，才发现许多项目文件结构组织、线上平台等内容缺乏清晰的指引和文档，~~也因为本人爱好整理~~，特地编纂本维护手册，希望小组成员和其他热心人士能持续维护更新，这也是开源社团的灵魂所在。
 
 ## 十年前学长的感慨
 
-在 cs-xiyoulinux（西邮 Linux 兴趣小组内部交流平台项目）的 [Wiki](https://github.com/xiyou-linuxer/cs-xiyoulinux-old/wiki) 中，我找到了这样一段话：
+在 cs-xiyoulinux（西邮 Linux 兴趣小组内部交流平台项目）的 [Wiki](https://github.com/xiyou-linuxer/cs-xiyoulinux-old/wiki) 中，我找到了这样一段话：
 
 > 小组自2006年成立以来，至今已走过8年，走出了一批批活跃在各地各方向上的优秀的学长学姐们。然而，随着时间推移，小组也暴露出了一些问题，比较明显的就是**传承与沟通上的缺失**——一方面，往届学长学姐们曾经开发的**优秀项目鲜有后人维护**，毕业后心系小组却缺少了解小组近况的途径，在校学习期间精心收集整理积累下的学习资源材料也难以向下沉淀；另一方面，在校的小组成员想要参与原有项目，却因**文档缺失难以入手**，想要联系往届同学咨询，却缺乏有效联系方式而求助无门……
 
@@ -33,7 +33,6 @@
 ### GitHub 账号
 
 除了 [<i class="fa-brands fa-github"></i>xiyou-linuxer](https://github.com/xiyou-linuxer) 之外，还存在一个归属未知的 [<i class="fa-brands fa-github"></i>xiyoulinuxgroup](https://github.com/xiyoulinuxgroup) 账号。
-
 
 ### 活动列表
 

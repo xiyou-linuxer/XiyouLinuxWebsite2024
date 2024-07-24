@@ -4,7 +4,7 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import './style.css'
 import { Icon } from '@iconify/vue'
-import Footer from '/.vitepress/components/Footer.vue'
+import Footer from '../components/Footer.vue'
 
 export default {
     extends: DefaultTheme,
@@ -14,7 +14,8 @@ export default {
             'doc-bottom': () => h(Footer),
         })
     },
-    enhanceApp({ app, router, siteData }) {
+    // enhanceApp({ app, router, siteData }) {
+    enhanceApp({ app }) {
         app.component('Icon', Icon)
     },
 } satisfies Theme

@@ -1,3 +1,5 @@
+/* stylelint-disable selector-class-pattern */
+
 :root {
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: linear-gradient(60deg, #2ca, #ec0);
@@ -30,18 +32,18 @@
 }
 
 .vp-doc a {
-    background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
+    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
     text-decoration: none;
     transition: 0.2s;
 }
 
 .vp-doc a:hover {
     border-radius: 0.2em;
-    background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
+    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
 }
 
 strong {
-    background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
+    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
 }
 
 .fa-solid,

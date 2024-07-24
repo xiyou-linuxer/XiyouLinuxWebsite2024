@@ -32,7 +32,7 @@ git clone git@github.com:xiyou-linuxer/XiyouLinuxWebsite2024.git
 
 在终端中进入 Git 仓库所在的路径：
 
-```sh 
+```sh
 cd XiyouLinuxWebsite2024
 ```
 
@@ -66,17 +66,13 @@ npm run dev
 
 除了 npm 脚本，还可以直接调用 VitePress：
 
-
 ::: code-group
-
 ```sh [npm]
 npx vitepress dev docs
 ```
-
 ```sh [pnpm]
 pnpm exec vitepress dev docs
 ```
-
 :::
 
 本地开发服务应该会运行在 `localhost:5173` 上。

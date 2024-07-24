@@ -28,14 +28,18 @@ function setActiveGrade(grade: string) {
 <template>
     <div class="tabs-container">
         <div class="tabs">
-            <button v-for="(gradeObj, gradeIndex) in selectedMembers" :key="gradeIndex"
-                :class="{ active: activeGradeIndex === gradeObj.grade }" @click="setActiveGrade(gradeObj.grade)">
+            <button
+                v-for="(gradeObj, gradeIndex) in selectedMembers" :key="gradeIndex"
+                :class="{ active: activeGradeIndex === gradeObj.grade }" @click="setActiveGrade(gradeObj.grade)"
+            >
                 <span class="grade">{{ gradeObj.grade }}</span>
                 <span class="badge">{{ gradeObj.members.length }}</span>
             </button>
         </div>
-        <div v-for="gradeObj in selectedMembers" v-show="activeGradeIndex === gradeObj.grade" :key="gradeObj.grade"
-            class="tab-contents">
+        <div
+            v-for="gradeObj in selectedMembers" v-show="activeGradeIndex === gradeObj.grade" :key="gradeObj.grade"
+            class="tab-contents"
+        >
             <div class="members">
                 <MemberCard v-for="member in gradeObj.members" :key="member.name" v-bind="member" />
             </div>
@@ -44,7 +48,7 @@ function setActiveGrade(grade: string) {
 </template>
 
 <style scoped>
-.tabs-container>* {
+.tabs-container > * {
     margin: 2rem 0;
 }
 
@@ -65,11 +69,11 @@ function setActiveGrade(grade: string) {
     cursor: pointer;
 }
 
-.tabs button>* {
+.tabs button > * {
     padding: 2px 4px;
 }
 
-.tabs button>.badge {
+.tabs button > .badge {
     background-color: var(--vp-c-default-soft);
 }
 
