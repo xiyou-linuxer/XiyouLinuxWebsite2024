@@ -1,6 +1,6 @@
 # 西邮 Linux 兴趣小组官网
 
-2024年3月14日立项，采用 VitePress 框架，由 @[L33Z22L11](https://github.com/L33Z22L11) 维护。
+2024年3月14日立项，采用 VitePress 构建。
 
 ## Documentation
 
