@@ -30,11 +30,11 @@ features:
     details: Xiyou Linux Group 培养计划，已开源并部署到网站，尽情探索研究吧！
     link: https://plan.xiyoulinux.com
     linkText: 访问
-  - icon: <i class="fa-solid fa-bookmark"></i>
-    title: Favorites
-    details: 计算机科学收藏夹计划，用于索引已公开的高质量的计算机科学相关资源与工具。
-    link: https://github.com/xiyou-linuxer/Favorites
-    linkText: GitHub
+  - icon: <i class="fa-solid fa-book-bookmark"></i>
+    title: 西邮Wiki
+    details: 纯公益、无广告的非官方校园生活百科，欢迎阅读、贡献。
+    link: https://wiki.cooo.site/
+    linkText: 阅读
   - icon: <i class="fa-solid fa-compass"></i>
     title: CO导航
     details: 更适合西邮宝宝体质的网址导航。

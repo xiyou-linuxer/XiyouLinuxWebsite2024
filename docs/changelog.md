@@ -2,7 +2,7 @@
 
 ## 2024
 
-- 07-22：优化导航结构，使用 ESLint。
+- 07-22：优化导航结构，使用 ESLint，使用 Cloudflare Pages 部署。
 - 06-02：使用 Stylelint。
 - 04-01：修复了 Nginx 上部署的 cleanUrls 配置。
 - 03-23：确定了部署方式，完善了本维护手册。

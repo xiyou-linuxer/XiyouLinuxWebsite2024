@@ -1,12 +1,15 @@
 export default [
+    { grade: '2024级', members: [
+        { name: '虚位以待', title: '', qq: '', github: '', linkText: '', link: '' },
+    ] },
     { grade: '2023级', members: [
+        { name: '吕浩楠', title: '23级负责人', qq: '1305969480', github: 'SIMple-lives', linkText: '独立博客', link: 'https://future.thisis.host/' },
+        { name: '兰坤', title: '23级负责人', qq: '1975362406', github: 'lankunGitHub', linkText: '', link: '' },
+        { name: '李涵毓', title: '23级负责人', qq: '3634802280', github: 'hanyu0000', linkText: 'CSDN', link: 'https://blog.csdn.net/2301_79326818' },
         { name: '方泽亚', title: '', qq: '2261214089', github: 'marsevilspirit', linkText: 'CSDN', link: 'https://blog.csdn.net/2302_79740417' },
-        { name: '吕浩楠', title: '', qq: '1305969480', github: 'SIMple-lives', linkText: '独立博客', link: 'https://future.thisis.host/' },
         { name: '代凌嘉', title: '', qq: '2098600899', github: 'yunjianshijie', linkText: '独立博客', link: 'https://yunjianworld.fun/' },
         { name: '王岗', title: '', qq: '2653344989', github: 'whosefriendA', linkText: 'CSDN', link: 'https://blog.csdn.net/2301_79637372' },
         { name: '艾宇博', title: '', qq: '1759753124', github: 'yu666yu666yu666', linkText: 'CSDN', link: 'https://blog.csdn.net/2301_79926396' },
-        { name: '兰坤', title: '', qq: '1975362406', github: 'lankunGitHub', linkText: '', link: '' },
-        { name: '李涵毓', title: '', qq: '3634802280', github: 'hanyu0000', linkText: 'CSDN', link: 'https://blog.csdn.net/2301_79326818' },
         { name: '胡海星', title: '', qq: '2732706745', github: 'Ph0m1', linkText: '独立博客', link: 'https://blog.phom.space/' },
         { name: '叶凯乐', title: '', qq: '3229833855', github: 'yeyeye2333', linkText: 'CSDN', link: 'https://blog.csdn.net/2301_79846925' },
         { name: '苏国诚', title: '', qq: '1799718517', github: 'suguocheng', linkText: 'CSDN', link: 'https://blog.csdn.net/2301_79726230' },
