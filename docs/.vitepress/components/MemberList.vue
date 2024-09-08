@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { computed, ref } from 'vue'
-import type { MemberProps } from './MemberCard.vue'
 import MemberCard from './MemberCard.vue'
+import type { MemberProps } from './MemberCard.vue'
 
 const props = defineProps<{
     members: Array<{
