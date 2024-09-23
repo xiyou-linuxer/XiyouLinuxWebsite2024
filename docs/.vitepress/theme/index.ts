@@ -1,12 +1,14 @@
 // https://vitepress.dev/zh/guide/custom-theme
-import { h } from 'vue'
 import type { Theme } from 'vitepress'
-import DefaultTheme from 'vitepress/theme-without-fonts'
-import './style.css'
-
 import { Icon } from '@iconify/vue'
+import DefaultTheme from 'vitepress/theme-without-fonts'
+import { h } from 'vue'
 
 import Footer from '../components/Footer.vue'
+import NotFound from '../components/NotFound.vue'
+
+import './theme-enhanced.css'
+import './style.css'
 
 export default {
     extends: DefaultTheme,
@@ -14,6 +16,7 @@ export default {
         return h(DefaultTheme.Layout, null, {
             // https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
             'doc-bottom': () => h(Footer),
+            'not-found': () => h(NotFound),
         })
     },
     // enhanceApp({ app, router, siteData }) {

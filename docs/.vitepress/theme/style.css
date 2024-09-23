@@ -28,29 +28,6 @@
     font-family: "标小智无界黑", sans-serif;
 }
 
-.VPMenuGroup > .title {
-    font-size: 11px;
-}
-
-.vp-doc a {
-    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-.vp-doc a:hover {
-    border-radius: 0.2em;
-    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
-}
-
-strong {
-    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
-}
-
-s {
-    opacity: 0.6;
-}
-
 .fa-solid,
 .fa-regular,
 .fa-brands,
