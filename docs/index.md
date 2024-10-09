@@ -14,8 +14,8 @@ hero:
       text: 介绍
       link: /info/
     - theme: alt
-      text: 2023纳新题
-      link: /archive/interview-2023
+      text: 2024纳新题
+      link: /archive/interview-2024
     - theme: alt
       text: 加入我们
       link: /info/join

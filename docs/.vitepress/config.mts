@@ -10,7 +10,7 @@ export default defineConfig({
     cleanUrls: true,
 
     themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+        // https://vitepress.dev/reference/default-theme-config
         logo: '/favicon.ico',
 
         nav: nav(),
@@ -19,6 +19,7 @@ export default defineConfig({
             // 以首次匹配的侧边栏为主
             '/changelog': manualSidebar(),
             // 路径需要尾随斜杠
+            '/archive/': docSidebar(),
             '/manual/': manualSidebar(),
             '/life/': lifeSidebar(),
             // 默认侧边栏
@@ -56,6 +57,9 @@ export default defineConfig({
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
         ['link', { rel: 'stylesheet', href: '//lib.baomitu.com/font-awesome/6.5.1/css/all.min.css', media: 'none', onload: 'media="all"' }],
+        ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.cn' }],
+        ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.cn' }],
+        ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.cn/css2?family=Fira+Code:wght@300..700&family=Noto+Serif+SC:wght@200..900&display=swap', media: 'none', onload: 'this.media="all"' }],
     ],
 })
 
@@ -91,12 +95,18 @@ function nav(): DefaultTheme.NavItem[] {
             ],
         },
         {
-            text: '内部',
+            text: '文档',
             activeMatch: '',
             items: [
-                { text: '维护手册', link: '/manual/', activeMatch: '/manual/' },
-                { text: '更新日志', link: '/changelog' },
-                { text: '生活指南', link: '/life/', activeMatch: '/life/' },
+                { text: '存档', link: '/archive/' },
+                {
+                    text: '内部资料',
+                    items: [
+                        { text: '维护手册', link: '/manual/', activeMatch: '/manual/' },
+                        { text: '更新日志', link: '/changelog' },
+                        { text: '生活指南', link: '/life/', activeMatch: '/life/' },
+                    ],
+                },
             ],
         },
     ]
@@ -159,6 +169,18 @@ function lifeSidebar(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: '序', link: '/life/' },
                 { text: '暑期留校', link: '/life/summer' },
+            ],
+        },
+    ]
+}
+
+function docSidebar(): DefaultTheme.SidebarItem[] {
+    return [
+        {
+            text: '资料存档',
+            items: [
+                { text: '2024纳新题', link: '/archive/interview-2024' },
+                { text: '2023纳新题', link: '/archive/interview-2023' },
             ],
         },
     ]
