@@ -169,6 +169,13 @@ function lifeSidebar(): DefaultTheme.SidebarItem[] {
             items: [
                 { text: '序', link: '/life/' },
                 { text: '暑期留校', link: '/life/summer' },
+                {
+                    text: '设施使用',
+                    link: '/life/facility/',
+                    items: [
+                        { text: '饮水机', link: '/life/facility/water' },
+                    ],
+                },
             ],
         },
     ]
