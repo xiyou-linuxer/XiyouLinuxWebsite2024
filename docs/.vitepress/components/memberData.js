@@ -1,6 +1,21 @@
 export default [
     { grade: '2024级', members: [
-        { name: '虚位以待', title: '', qq: '', github: '', linkText: '', link: '' },
+        { name: '王嘉乐', title: '', qq: '2085163736', github: 'Aetherance', linkText: '', link: '' },
+        { name: '王靖远', title: '', qq: '3141270268', github: 'strategist0', linkText: '', link: '' },
+        { name: '刘启冰', title: '', qq: '241651049', github: 'ruancang0721', linkText: '', link: '' },
+        { name: '朱斌', title: '', qq: '1662308219', github: 'zbchi', linkText: '', link: '' },
+        { name: '刘雨熙', title: '', qq: '915988179', github: 'L-iuxi', linkText: '', link: '' },
+        { name: '徐子淳', title: '', qq: '2978500991', github: 'qiuyinlan', linkText: '', link: '' },
+        { name: '井光成', title: '', qq: '2907404984', github: 'xianweihuihuan', linkText: '', link: '' },
+        { name: '王家懿', title: '', qq: '3076331747', github: '25ALN', linkText: '', link: '' },
+        { name: '王力扬', title: '', qq: '1552356639', github: 'Eliauk-qwe', linkText: '', link: '' },
+        { name: '林芯宇', title: '', qq: '481505841', github: 'linnaid', linkText: '', link: '' },
+        { name: '孟昶羽', title: '', qq: '2121287641', github: 'lfqaEWFC', linkText: '', link: '' },
+        { name: '张铭涛', title: '', qq: '3216563979', github: 'qcx761', linkText: '', link: '' },
+        { name: '赵小龙', title: '', qq: '1525898472', github: 'zzhaoxiaolong', linkText: '', link: '' },
+        { name: '高翊翔', title: '', qq: '2781790037', github: 'xyz2781790037', linkText: '', link: '' },
+        { name: '郑成龙', title: '', qq: '310608318', github: 'hahahahaha66', linkText: '', link: '' },
+        { name: '鲁樊栋', title: '', qq: '2281409362', github: 'dongdonglfd', linkText: '', link: '' },
     ] },
     { grade: '2023级', members: [
         { name: '吕浩楠', title: '23级负责人', qq: '1305969480', github: 'SIMple-lives', linkText: '独立博客', link: 'https://future.thisis.host/' },
