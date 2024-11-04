@@ -9,7 +9,7 @@ import MemberList from '/.vitepress/components/MemberList.vue'
 
 # 成员
 
-<member-list :members="memberData" :from="1" />
+<member-list :members="memberData" :from="0" />
 
 ## {{ memberData[0].grade }}成员
 
