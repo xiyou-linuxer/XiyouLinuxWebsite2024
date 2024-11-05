@@ -65,7 +65,7 @@ const avatarLink = computed(() => {
     color: var(--vp-c-text-3);
 }
 
-.card a {
+.card.card a {
     overflow: hidden;
     max-width: 100%;
     background: unset;
@@ -74,7 +74,7 @@ const avatarLink = computed(() => {
     text-wrap: nowrap;
 }
 
-.card a[target]::after {
+.card.card a[target]::after {
     content: unset;
 }
 </style>

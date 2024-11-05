@@ -1,8 +1,8 @@
 # 图标
 
-## FontAwesome 图标
+## Font Awesome 图标
 
-在 `<head>` 中引入了 360 前端静态资源库提供的 [FontAwesome 图标库](https://cdn.baomitu.com/font-awesome)。
+在 `<head>` 中引入了 360 前端静态资源库提供的 [Font Awesome 图标库](https://cdn.baomitu.com/font-awesome)。
 
 可以在 [FontAwesome 图标搜索](https://fontawesome.com/search?m=free) 上查找图标。
 
