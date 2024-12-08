@@ -6,7 +6,7 @@
 
 [维护手册](https://xiyoulinux.com/manual/)（在线页面）
 
-仓库内维护文档在 [`docs/manual/`](/docs/manual/) 文件夹下。
+仓库内维护文档在 [`/docs/manual/`](/docs/manual/) 文件夹下。
 
 ## Changelog
 

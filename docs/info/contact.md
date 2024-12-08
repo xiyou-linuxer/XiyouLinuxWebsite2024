@@ -6,7 +6,7 @@
 
 ## 网站维护
 
-请自行查阅 [官网维护手册](/manual/) ， 向 [<i class="fa-brands fa-github"></i>官网仓库(2024)](https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024) 提交 Pull Request。
+请自行查阅 [官网维护手册](/manual/) ， 向 [<i class="fa-brands fa-github"></i>官网仓库(2024)](https://github.com/xiyou-linuxer/website-2024) 提交 Pull Request。
 
 ## 线上渠道
 

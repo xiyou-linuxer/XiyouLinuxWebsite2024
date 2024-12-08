@@ -39,7 +39,7 @@ export default defineConfig({
         outline: { level: [2, 3], label: '目录' },
         returnToTopLabel: '返回顶部',
         editLink: {
-            pattern: 'https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024/blame/main/docs/:path',
+            pattern: 'https://github.com/xiyou-linuxer/website-2024/blame/main/docs/:path',
             text: '源代码',
         },
         lastUpdated: {
@@ -49,14 +49,14 @@ export default defineConfig({
         docFooter: { prev: '上一篇', next: '下一篇' },
 
         footer: {
-            message: '<a href="http://beian.miit.gov.cn" target="_blank"><i class="fa-solid fa-shield-halved"></i>陕ICP备2023007680号-1</a> · <a href="https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024" target="_blank"><i class="fa-brands fa-github"></i>官网仓库</a>',
+            message: '<a href="http://beian.miit.gov.cn" target="_blank"><i class="fa-solid fa-shield-halved"></i>陕ICP备2023007680号-1</a> · <a href="https://github.com/xiyou-linuxer/website-2024" target="_blank"><i class="fa-brands fa-github"></i>官网仓库</a>',
             copyright: `© 2006-${new Date().getFullYear()} 西邮 Linux 兴趣小组`,
         },
     },
 
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }],
-        ['link', { rel: 'stylesheet', href: '//lib.baomitu.com/font-awesome/6.5.1/css/all.min.css', media: 'none', onload: 'media="all"' }],
+        ['link', { rel: 'stylesheet', href: 'https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css', media: 'none', onload: 'media="all"' }],
         ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.cn' }],
         ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.cn' }],
         ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.cn/css2?family=Fira+Code:wght@300..700&family=Noto+Serif+SC:wght@200..900&display=swap', media: 'none', onload: 'this.media="all"' }],
@@ -65,11 +65,11 @@ export default defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
     return [
-        { text: '群博Blog', link: '//blog.xiyoulinux.com' },
-        { text: '培养Plan', link: '//plan.xiyoulinux.com' },
+        { text: '群博Blog', link: 'https://blog.xiyoulinux.com' },
+        { text: '培养Plan', link: 'https://plan.xiyoulinux.com' },
         {
             text: '介绍',
-            activeMatch: '/info/',
+            activeMatch: '$/(info|event)/',
             items: [
                 { text: '小组介绍', link: '/info/' },
                 { text: '加入我们', link: '/info/join' },
@@ -96,9 +96,9 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
             text: '文档',
-            activeMatch: '',
+            activeMatch: '$/(archive|manual|life)/',
             items: [
-                { text: '存档', link: '/archive/' },
+                { text: '存档', link: '/archive/', activeMatch: '$/archive/' },
                 {
                     text: '内部资料',
                     items: [

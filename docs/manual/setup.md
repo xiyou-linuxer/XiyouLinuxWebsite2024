@@ -16,16 +16,16 @@ npm -v
 
 ## 克隆仓库
 
-使用以下的命令克隆 [<i class="fa-brands fa-github"></i>XiyouLinuxWebsite2024](https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024) 到本地。
+使用以下的命令克隆 [<i class="fa-brands fa-github"></i>website-2024](https://github.com/xiyou-linuxer/website-2024) 到本地。
 
 ```sh
-git clone https://github.com/xiyou-linuxer/XiyouLinuxWebsite2024.git
+git clone https://github.com/xiyou-linuxer/website-2024.git
 ```
 
 如果你在 GitHub 上配置了 SSH 密钥，也可以使用此命令：
 
 ```sh
-git clone git@github.com:xiyou-linuxer/XiyouLinuxWebsite2024.git
+git clone git@github.com:xiyou-linuxer/website-2024.git
 ```
 
 ## 安装项目依赖
@@ -33,7 +33,7 @@ git clone git@github.com:xiyou-linuxer/XiyouLinuxWebsite2024.git
 在终端中进入 Git 仓库所在的路径：
 
 ```sh
-cd XiyouLinuxWebsite2024
+cd website-2024
 ```
 
 使用 npm 或者其他管理工具安装项目依赖：
