@@ -9,7 +9,7 @@
 采用在线构建方式。
 
 - 分支：`main`
-- 构建命令：`npm run build`
+- 构建命令：`pnpm build`
 - 部署目录：`docs/.vitepress/dist`
 
 ## 在小组服务器部署

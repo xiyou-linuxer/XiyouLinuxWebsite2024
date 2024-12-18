@@ -69,11 +69,11 @@ function nav(): DefaultTheme.NavItem[] {
         { text: '培养Plan', link: 'https://plan.xiyoulinux.com' },
         {
             text: '介绍',
-            activeMatch: '$/(info|event)/',
+            activeMatch: '^/(info|event)/',
             items: [
                 { text: '小组介绍', link: '/info/' },
                 { text: '加入我们', link: '/info/join' },
-                { text: '活动', link: '/event/', activeMatch: '/event/' },
+                { text: '活动', link: '/event/', activeMatch: '^/event/' },
                 { text: '成员', link: '/info/member' },
                 { text: '联系方式', link: '/info/contact' },
             ],
@@ -96,15 +96,15 @@ function nav(): DefaultTheme.NavItem[] {
         },
         {
             text: '文档',
-            activeMatch: '$/(archive|manual|life)/',
+            activeMatch: '^/(archive|manual|life)/',
             items: [
-                { text: '存档', link: '/archive/', activeMatch: '$/archive/' },
+                { text: '存档', link: '/archive/', activeMatch: '^/archive/' },
                 {
                     text: '内部资料',
                     items: [
-                        { text: '维护手册', link: '/manual/', activeMatch: '/manual/' },
+                        { text: '维护手册', link: '/manual/', activeMatch: '^/manual/' },
                         { text: '更新日志', link: '/changelog' },
-                        { text: '生活指南', link: '/life/', activeMatch: '/life/' },
+                        { text: '生活指南', link: '/life/', activeMatch: '^/life/' },
                     ],
                 },
             ],

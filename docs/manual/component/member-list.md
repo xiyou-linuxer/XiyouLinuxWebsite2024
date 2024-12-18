@@ -21,14 +21,14 @@
 2. 在该文件中，可以看到各个年级的成员信息。
 3. 可以按照现有的格式，使用 Markdown 语法编写或修改成员信息。
    - 文件头部应当引入成员信息的 Vue 组件和 JavaScript 模块：
-     ```markdown
+     ```vue
      <script setup>
-       import memberData from '/.vitepress/components/memberData.js'
-       import MemberList from '/.vitepress/components/MemberList.vue'
+     import memberData from '/.vitepress/components/memberData.js'
+     import MemberList from '/.vitepress/components/MemberList.vue'
      </script>
      ```
    - 将数据传入组件：
-     ```markdown
+     ```vue
      <member-list :members="memberData" />
      ```
 
